@@ -31,7 +31,15 @@
         img {
             height: auto;
             width: 200px;
+            transition: all 1000ms;
         }
+
+        .imagen-personaje:hover{
+            transform: translate(-5px, -5px);
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.562);
+            width: 300px;
+        }
+
         .contenedor .item{
             background-color: #4a464669;
             margin: 20px 0 20px 0;
@@ -39,12 +47,26 @@
         }
 
         .button{
-            background-color: #4a4646;
+            background-color: #4a4646dc;
             border-radius: 10%;
             width: 50%;
             margin: auto;
-          
+            cursor: pointer;
+            transition: all 500ms;
         }
+
+        .button:hover{
+            transform: translate(-5px, -5px);
+            background-color: #4a4646;
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.562);
+        }
+        .button:active{
+            transform: translate(-5px, -5px);
+            background-color: #4a4646a6;
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.562);
+
+        }
+        
         h4{
             padding: 20px 0;
             user-select: none;
@@ -68,8 +90,16 @@
             margin: 20px 20px;
         }
 
-        #icono{
+        .icono{
             width: 30px;
             height: auto;
+            transition: all 500ms;
         }
+
+        .icono:hover{
+            transform: translate(-5px, -5px);
+        }
+
+
+        
   

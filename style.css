@@ -1,0 +1,75 @@
+
+        @font-face {
+            font-family: sw;
+            src: url("./fuente/Starjedi.ttf");
+        }
+
+        body{
+            position: relative;
+            margin: 0;
+            font-family: sw;
+            background-image: url("img/icono.jpg");
+            background-size: contain; 
+            text-align: center;
+            color: white;
+            min-height: 100vh;
+        }  
+        
+        .head{
+            width: 100%;
+            background-color: rgb(37, 49, 80);
+        }
+        .titulo{
+            margin: 0;
+        }
+        
+        .contenedor{
+            height: 500px;
+            display: block;
+        }
+        
+        img {
+            height: auto;
+            width: 200px;
+        }
+        .contenedor .item{
+            background-color: #4a464669;
+            margin: 20px 0 20px 0;
+            width: 100%;
+        }
+
+        .button{
+            background-color: #4a4646;
+            border-radius: 10%;
+            width: 50%;
+            margin: auto;
+          
+        }
+        h4{
+            padding: 20px 0;
+            user-select: none;
+        }
+
+        .footer{
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background-color: #4a4646a8;
+        }
+
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style:none;
+            padding-left: 0;
+        }
+        li{
+            text-decoration: none;
+            margin: 20px 20px;
+        }
+
+        #icono{
+            width: 30px;
+            height: auto;
+        }
+  
